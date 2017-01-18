@@ -10,6 +10,4 @@ const routes = [
   { path: '/bar', component: Bar }
 ]
 
-const router = new VueRouter({ routes })
-
-export default router;
+export default new VueRouter({ routes })
